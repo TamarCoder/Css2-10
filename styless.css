@@ -8,57 +8,44 @@
 }
 
 
-
 #main-container {
     max-width: 1920px;
+    height: 2540px;
     width: 100%;
-    height: 2500px;
-    background-color: #fff;
+    vertical-align: middle;
 }
 
 #main-section {
     width: 1604px;
     height: 2108px;
     background: #E2F7FF;
-    margin: 96px auto;
-
+    display: inline-block;
+    margin: 64px 45px;
 }
 
-#main-content {
+#main-content-section {
     width: 1412px;
     height: 1916px;
-  
     margin: 96px auto;
 }
 
 #container {
-    Width: 1280px;
-    Height: 1820px;
- 
-    margin-left: 70px;
+    width: 1280px;
+    height: 1820px;
+    margin: 32px auto;
 }
 
 header {
     width: 1216px;
     height: 804px;
-
-    margin: 0 32px;
-}
-
-main {
-    width: 1216px;
-    height: 952px;
     background-color: violet;
-    margin: 064px 32px;
-
+    margin: 0 32px;
 }
 
 #header-content {
     width: 1216px;
     height: 158px;
-  
     margin-top: 20px;
-
 }
 
 #header-title {
@@ -78,21 +65,15 @@ main {
     font-size: 30px;
     font-weight: 600;
     margin-top: 10px;
-
 }
 
 #header-span {
     width: 457px;
     height: 24px;
-
     color: #535862;
     font-size: 16px;
     font-weight: 400;
-     
-     
-
 }
-
 
 #categories {
     width: 1216px;
@@ -112,12 +93,14 @@ main {
     border: 1px solid #E9D7FE;
     background: #F9F5FF;
 }
-#categories #purple  p {
+
+#categories #purple p {
     padding-top: 8px;
     color: #6941C6;
     font-weight: 500;
     font-size: 14px;
 }
+
 #categories #blue {
     width: 87px;
     height: 36px;
@@ -129,7 +112,8 @@ main {
 
     background: #EEF4FF;
 }
-#categories #blue  p {
+
+#categories #blue p {
     padding-top: 8px;
     color: #3538CD;
     font-weight: 500;
@@ -146,9 +130,307 @@ main {
     border: 1px solid #FCCEEE;
     background: #FDF2FA;
 }
-#categories #red  p {
+
+#categories #red p {
     padding-top: 8px;
     color: #C11574;
     font-weight: 500;
     font-size: 14px;
 }
+
+main {
+    width: 1216px;
+    height: 952px;
+    margin: 64px 32px;
+    vertical-align: middle;
+
+}
+
+#card-contiainer {
+    width: 1216px;
+    height: 952px;
+    border: 1px solid;
+    vertical-align: middle;
+  
+}
+
+#card1 {
+    width: 384px;
+    height: 436px; 
+    display: inline-block;
+    background-color: white;
+   
+}
+#card2 {
+    width: 384px;
+    height: 436px; 
+    display: inline-block;
+    background-color: white;
+    margin-left: 25px;
+   
+}
+
+#card3 {
+    width: 384px;
+    height: 436px; 
+    display: inline-block;
+    background-color: white;
+    margin-left: 25px;
+}
+
+#card4 {
+    width: 384px;
+    height: 436px; 
+    display: inline-block;
+    background-color: white;
+    margin-top: 48px;
+    
+   
+}
+#card5 {
+    width: 384px;
+    height: 436px; 
+    display: inline-block;
+    background-color: white;
+    margin-left: 25px;
+   
+}
+
+#card6 {
+    width: 384px;
+    height: 436px; 
+    display: inline-block;
+    background-color: white;
+    margin-left: 25px;
+}
+#card1-image {
+    width: 384px;
+    height: 240px;
+    background: url(./images/card-1.png);
+}
+
+#card2-image {
+    width: 384px;
+    height: 240px;
+    background: url(./images/card-2.png);
+}
+#card3-image {
+    width: 384px;
+    height: 240px;
+    background: url(./images/card-3.png);
+}
+
+
+#card4-image {
+    width: 384px;
+    height: 240px;
+    background: url(./images/card-4.png);
+}
+#card5-image {
+    width: 384px;
+    height: 240px;
+    background: url(./images/card-5.png);
+}
+#card6-image {
+    width: 384px;
+    height: 240px;
+    background: url(./images/card-6.png);
+}
+
+#card1-content {
+    width: 384px;
+    height: 176px;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #535862;
+}
+
+#card2-content {
+    width: 384px;
+    height: 176px;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #535862;
+}
+#card3-content {
+    width: 384px;
+    height: 176px;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #535862;
+}
+#card4-content {
+    width: 384px;
+    height: 176px;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #535862;
+}
+#card5-content {
+    width: 384px;
+    height: 176px;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #535862;
+}
+#card6-content {
+    width: 384px;
+    height: 176px;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #535862;
+}
+
+#card1-info-heading {
+    width: 384px;
+    height: 116px;
+    vertical-align: middle;
+    background-color: yellow;
+
+}
+#card2-info-heading {
+    width: 384px;
+    height: 116px;
+    vertical-align: middle;
+    background-color: yellow;
+
+}
+#card3-info-heading {
+    width: 384px;
+    height: 116px;
+    vertical-align: middle;
+    background-color: yellow;
+
+}
+
+#card4-info-heading {
+    width: 384px;
+    height: 116px;
+    vertical-align: middle;
+    background-color: yellow;
+
+}
+#card5-info-heading {
+    width: 384px;
+    height: 116px;
+    vertical-align: middle;
+    background-color: yellow;
+
+}
+#card6-info-heading {
+    width: 384px;
+    height: 116px;
+    vertical-align: middle;
+    background-color: yellow;
+
+}
+ 
+
+
+
+
+
+#card1-top {
+    width: 384px;
+    height: 20px;
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+}
+ 
+
+
+ 
+
+ 
+
+/* 
+
+ 
+
+#car1-top {
+    width: 384px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 8px;
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+#car1-center {
+    width: 384px;
+    height: 32px;
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+#car1-center p {
+    width: 344px;
+    color: #181D27;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+#arrow {
+    width: 24px;
+    height: 24px;
+}
+
+#car1-bottom {
+    width: 384px;
+    height: 48px;
+    display: inline-block;
+    margin-top: 8px;
+
+}
+
+#car1-bottom span {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#card1-categories {
+    width: 384px;
+    height: 36px;
+    margin-top: 24px;
+    vertical-align: middle;
+
+}
+
+#product {
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 99px;
+    border: 1px solid #B9E6FE;
+    background: #F0F9FF;
+    display: inline-block;
+}
+
+#tools {
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 99px;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+    display: inline-block;
+    margin-left: 15px;
+}
+#saas{
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 99px;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+    display: inline-block;
+    margin-left: 15px;
+}  
+ */
